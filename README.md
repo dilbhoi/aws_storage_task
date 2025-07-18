@@ -1,45 +1,58 @@
-# Task 1 – AWS S3 Cloud Storage Setup
+# 🗂️ Internship Task 1 – AWS Cloud Storage Setup
 
-This repository contains files and information related to my internship Task 1, where I created and configured cloud storage using AWS S3.
-
----
-
-## 🎯 Objectives
-
-- Create an S3 bucket
-- Upload example files
-- Configure access permissions via bucket policy
-- Enable public file access
+This repository contains documents and analysis files from **Task 1** of my cloud computing internship. The objective was to create, configure, and secure an AWS S3 bucket with sample uploads and access policies.
 
 ---
 
-## 🪣 S3 Bucket Name
+## ✅ Objectives
 
-`dilbhoiinternship`
-
----
-
-## 🗂️ Example Files Uploaded
-
-- `demo.txt`
-- `sample.pdf`
-- `image1.jpg`
+- Create and configure an S3 bucket (`dilbhoiinternship`)
+- Upload test files and documents
+- Configure bucket policy and public access permissions
+- Verify object-level access via direct URLs
+- Understand network-level DNS and HTTP behaviors via Wireshark
 
 ---
 
-## 🔐 Permissions
+## 📁 Files Uploaded
 
-- Public read access configured using a **custom bucket policy**
-- Bucket ARN: `arn:aws:s3:::dilbhoiinternship`
+| File Name                        | Description |
+|----------------------------------|-------------|
+| `DNS 1 and DNS2.pdf`             | Step-by-step DNS analysis using Wireshark |
+| `HTTP Wireshark Analysis.pdf`    | HTTP GET/OK packet capture, timings, and script for CSV parsing |
+| `tcp packet.pdf`                 | TCP 3-way handshake, segment tracking, and RTT analysis using Wireshark |
 
----
-
-## ✅ Learnings
-
-- How to use Amazon S3 as cloud storage
-- How to manage access using bucket policies
-- Lifecycle rule management and monitoring options
+These files were also uploaded to the S3 bucket and validated through browser-based object links.
 
 ---
 
-*This task was part of my internship project on cloud computing.*
+## 🪣 AWS S3 Bucket Details
+
+- **Bucket name**: `dilbhoiinternship`
+- **Region**: `eu-north-1`
+- **Bucket policy**: Public read access configured
+- **Live file access example**:  
+  [DNS Analysis File](https://dilbhoiinternship.s3.eu-north-1.amazonaws.com/DNS+1+and+DNS2.pdf)
+
+---
+
+## 📚 Learnings
+
+- Hands-on experience with AWS S3
+- Object-level storage and access management
+- Bucket policy troubleshooting and ARN usage
+- Basic networking insights using DNS and HTTP packet analysis
+
+---
+
+## 📌 Internship Context
+
+> This is part of my internship project at **EliteTech Intern**, under the Cloud Computing domain (May–July 2025).
+
+---
+
+## 🧑‍💻 Author
+
+**Dil Bhoi**  
+DY Patil International University, Pune  
+Cloud Computing Internship  
